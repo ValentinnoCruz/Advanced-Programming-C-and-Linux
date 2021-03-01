@@ -1,0 +1,42 @@
+=================================================================================
+					Part 1
+=================================================================================
+
+pick() method picks a marble of random type form the bag. First it checks if the 
+is empty or not. If the bag is empty, it return the -1 that indicates the empty 
+bag. If the bag doesn't empty, it choose a pick value randomly and check is that
+the count of that marble type in types[] array is 0 or not. If 0, it again chooses
+a random number and checks again. If the count > 0, it decrements the count of
+marble type and decrements the size that tracks how many marbles are there in the
+bag. Then it return the type of marble that picked up.
+
+---------------------------------------------------------------------------------
+
+=================================================================================
+					Part 2
+=================================================================================
+
+In the main() function, I followed 4 test cases to check the BagOfMarbles.
+
+Test case 1:
+	I put a different number of marbles of each type in the bag and test its
+	functionality. It picks up a random marbles form the bag and displays the 
+	remaining marbles count and types of marbles after picking up.
+
+Test case 2:
+	I put different number of marbles with illegal types (out of range 0-4).
+	It should ignore the illegal types of marbles and should track the count 
+	accordingly. After putting them into the bag, it prints the types and 
+	count of the marbles in the bag that is exactly the count of legal types 
+	and it ignores th illegal types and didn't include any illegal type of 
+	marble in the bag. After picking up a marble, it tracks the count and size
+	correctly.
+
+Test case 3:
+	I put 20 marbles all of the type 4. that means picked marble is always of
+	type 4. When I run the pick() method, it picks the type 4 marble each time
+	and keep the track of marbles and size accordingly.
+
+Test case 4:
+	I keep the bag empty and tests the pick() method, it return -1, the indicates 
+	the bag is empty.

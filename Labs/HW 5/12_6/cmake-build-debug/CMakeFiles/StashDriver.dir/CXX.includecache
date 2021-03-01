@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/Fiverr/jedisushi/12_6/Stash.h
+iostream
+-
+ostream
+-
+string
+-
+
+D:/Projects/Fiverr/jedisushi/12_6/StashDriver.cpp
+Stash.h
+D:/Projects/Fiverr/jedisushi/12_6/Stash.h
+iostream
+-
+

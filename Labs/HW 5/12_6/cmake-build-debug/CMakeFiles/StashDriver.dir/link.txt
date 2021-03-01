@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\StashDriver.dir/objects.a
+C:\PROGRA~1\mingw64\bin\ar.exe cr CMakeFiles\StashDriver.dir/objects.a @CMakeFiles\StashDriver.dir\objects1.rsp
+C:\PROGRA~1\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\StashDriver.dir/objects.a -Wl,--no-whole-archive  -o StashDriver.exe -Wl,--out-implib,libStashDriver.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StashDriver.dir\linklibs.rsp

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/Fiverr/jedisushi/12_6/ArrayList.h
+iostream
+-
+
+D:/Projects/Fiverr/jedisushi/12_6/ArrayListDriver.cpp
+iostream
+-
+ArrayList.h
+D:/Projects/Fiverr/jedisushi/12_6/ArrayList.h
+memory_stuff.h
+D:/Projects/Fiverr/jedisushi/12_6/memory_stuff.h
+
+D:/Projects/Fiverr/jedisushi/12_6/memory_stuff.h
+iostream
+-
+
