@@ -1,6 +1,6 @@
 ﻿# Matrix Engine
 
-**Introduction**
+## Introduction
 In mathematics, a matrix (plural of matrices) is a rectangular array—of numbers, symbols, or expressions, arranged in rows and columns—that is interpreted and manipulated in certain prescribed ways. One such way is to state the dimensions of the matrix. This project is programmed to calculate arithmetic functions (add, subtract, multiply) of two matrices. It is also able to do more advanced linear functions involving matrices such as transpose, determinant, and inverse of a matrix. Lastly, There is a game implemented to test the users knowledge of matrix problems.
 
 ## Summary
