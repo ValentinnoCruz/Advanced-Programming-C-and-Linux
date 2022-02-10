@@ -3,16 +3,16 @@ This course is intended for students with basic to intermediate programming skil
 The main objective of this course is to build on the foundations from CSE22 and
 teach students how to write high-quality code, by utilizing advanced programming
 techniques. Students taking the course will learn:
- The Linux command line;
- Separate compilation and linking;
- Utilizing libraries;
- Test-driven development;
- Pointers and pointer arithmetic;
- Manipulating data through pointers;
-<br> Diferent parts of application memory;
- Event driven programming;
- Object oriented techniques:
-{ Encapsulation
-{ Inheritance
-{ Polymorphism
- Problem solving techniques.
+• The Linux command line;<br />
+• Separate compilation and linking;<br />
+• Utilizing libraries;<br />
+• Test-driven development;<br />
+• Pointers and pointer arithmetic;<br />
+• Manipulating data through pointers;<br />
+• Diferent parts of application memory; <br />
+• Event driven programming;<br />
+• Object oriented techniques:<br />
+• Encapsulation<br />
+• Inheritance<br />
+• Polymorphism<br />
+• Problem solving techniques.<br />
