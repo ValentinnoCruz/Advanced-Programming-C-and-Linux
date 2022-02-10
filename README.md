@@ -9,7 +9,7 @@ techniques. Students taking the course will learn:
  Test-driven development;
  Pointers and pointer arithmetic;
  Manipulating data through pointers;
- Diferent parts of application memory;
+<br> Diferent parts of application memory;
  Event driven programming;
  Object oriented techniques:
 { Encapsulation
